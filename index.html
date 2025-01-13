@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Art</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .fade-in {
+        animation: fadeIn 1s ease-in-out forwards;
+    }
+</style>
+<body class="font-sans">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto flex justify-between items-center p-4">
+            <div class="text-2xl font-bold">Quantum<span class="text-blue-900"> Art</span></div>
+            <ul class="flex space-x-6">
+                <li><a href="#why" class="hover:text-blue-500">About</a></li>
+                <li><a href="#service" class="hover:text-blue-500">Service</a></li>
+                <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class=" bg-gray-900 text-white py-20 yk">
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center text-center lg:text-left">
+            <div>
+                <h1 class="text-4xl lg:text-6xl font-bold mb-6">End-to-End Support & Maintenance Services</h1>
+                <p class="text-lg mb-8">From installation to ongoing maintenance, we ensure your systems run smoothly with minimal downtime.</p>
+                <a href="#" class="bg-orange-500 text-white px-6 py-3 rounded-md text-lg hover:bg-orange-600">Get a free consultation</a>
+            </div>
+            <div>
+                <img src="r.png" alt="IT setup" class="x rounded-md shadow-lg w-50px h-50px">
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Features Section -->
+    <section id="service" class="bg-gray-800 text-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-[50px] font-bold mb-6">Our Services</h2>
+            <p class="text-lg mb-10">We provide a wide range of services to meet your business needs.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <div class="text-orange-500 text-4xl mb-4">🔧</div>
+                    <h3 class="text-3xl font-semibold mb-2">Installation & Integration</h3>
+                    <p>Expert installation of machinery and software, ensuring seamless integration into your workflows.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <div class="text-orange-500 text-4xl mb-4">🖥️</div>
+                    <h3 class="text-3xl font-semibold mb-2">Customized Software Solutions</h3>
+                    <p>Tailored software designed to streamline operations and enhance productivity in your industry.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <div class="text-orange-500 text-4xl mb-4">🛠️</div>
+                    <h3 class="text-3xl font-semibold mb-2">Support & Maintenance</h3>
+                    <p>24/7 technical support and regular maintenance to keep your systems running smoothly.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <div class="text-orange-500 text-4xl mb-4">🌍</div>
+                    <h3 class="text-3xl font-semibold mb-2">Global Sourcing & Consultation</h3>
+                    <p>Access the best machinery and software with expert consultation and global sourcing.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <div class="text-4xl text-orange-500 mb-4">📘</div>
+                    <h3 class="text-3xl font-semibold mb-2">Training & Onboarding</h3>
+                    <p>Customized training programs to ensure your team is equipped to operate new systems effectively.
+                    </p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <div class="text-4xl text-orange-500 mb-4">🚀</div>
+                    <h3 class="text-3xl font-semibold mb-2">Global sourcing for cutting-edge technology</h3>
+                    <p>providing top quality equipment sourced from Europe and China to empower your operations
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="why" class="service py-12 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Why work with <span class="text-blue-500">Us</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="services">
+                <!-- Service 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-6 opacity-0" style="animation-delay: 0.3s;">
+                    <div class="flex justify-center mb-4">
+                        <img src="icons8-work-50.png" alt="Currency Wallet Icon" class="h-12 w-12">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Industry Expertise</h3>
+                    <p class="text-gray-500 mb-4">Our extensive experience in the Finance, Textile, and Food Processing sectors ensures tailored solutions that meet industry-specific needs.</p>
+                    <a class="text-blue-500 font-semibold hover:underline">Read More</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-6 opacity-0" style="animation-delay: 0.6s;">
+                    <div class="flex justify-center mb-4">
+                        <img src="https://img.icons8.com/?size=512w&id=wHJsA7OlX4cd&format=png" alt="Security Storage Icon" class="h-12 w-12">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Global Sourcing</h3>
+                    <p class="text-gray-500 mb-4">We source top-quality machinery and software from trusted suppliers in Europe and China, ensuring the best solutions for your business.</p>
+                    <a class="text-blue-500 font-semibold hover:underline">Read More</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white shadow-lg rounded-lg p-6 opacity-0" style="animation-delay: 1s;">
+                    <div class="flex justify-center mb-4">
+                        <img src="https://img.icons8.com/?size=512w&id=49238&format=png" alt="Expert Support Icon" class="h-12 w-12">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">End-to-End Solutions</h3>
+                    <p class="text-gray-500 mb-4">From installation to ongoing support and maintenance, we provide comprehensive services that cover every aspect of your project..</p>
+                    <a class="text-blue-500 font-semibold hover:underline">Read More</a>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg p-6 opacity-0" style="animation-delay: 1s;">
+                    <div class="flex justify-center mb-4">
+                        <img src="https://img.icons8.com/?size=512w&id=33462&format=png" alt="Expert Support Icon" class="h-12 w-12">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Innovative Technology</h3>
+                    <p class="text-gray-500 mb-4">We leverage cutting-edge technology to deliver solutions that drive efficiency and innovation within your business.</p>
+                    <a class="text-blue-500 font-semibold hover:underline">Read More</a>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg p-6 opacity-0" style="animation-delay: 1s;">
+                    <div class="flex justify-center mb-4">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/customer-support.png" alt="Expert Support Icon" class="h-12 w-12">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Client-Centric Approach</h3>
+                    <p class="text-gray-500 mb-4">We prioritize your business goals, working closely with you to deliver solutions that align with your objectives and drive success.
+
+                    </p>
+                    <a class="text-blue-500 font-semibold hover:underline">Read More</a>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg p-6 opacity-0" style="animation-delay: 1s;">
+                    <div class="flex justify-center mb-4">
+                        <img src="https://img.icons8.com/?size=512&id=1EWGPoAGLgl7&format=png" alt="Expert Support Icon" class="h-12 w-12">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Reliable Support</h3>
+                    <p class="text-gray-500 mb-4">Our dedicated support team is always available to ensure your systems are running smoothly, minimizing downtime and maximizing productivity.</p>
+                    <a class="text-blue-500 font-semibold hover:underline">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Testimonials Section -->
+     <section class="py-12 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Industries we serve</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 bg-white w-[500px] h-[200px] shadow-md rounded-md">
+                    <div class="flex justify-center mb-4">
+                        <img src="https://img.icons8.com/?size=256w&id=9166&format=png" alt="Expert Support Icon" class="h-12 w-12">
+                    </div>
+                    <h1 class="text-[30px] text-bold mb-4">Real Estate</h1>
+                    <p class="text-gray-600 mb-4">Smart solutions for property management and real estate transactions</p>
+                    <div class="flex items-center mt-4">
+
+                        <div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6  bg-blue-500 w-[500px] h-[200px] shadow-md rounded-md">
+                    <div class="flex justify-center mb-4">
+                        <img src="https://img.icons8.com/?size=50&id=3562&format=png" alt="Expert Support Icon" class="h-12 w-12">
+                    </div>
+                    <h1 class="text-[30px] text-bold text-white mb-4">Logistics</h1>
+                    <p class="text-white mb-4">Advanced tracking and management systems for transportation and logistics</p>
+                    <div class="flex items-center mt-4">
+
+                        <div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 bg-white w-[500px] h-[200px] shadow-md rounded-md">
+                    <div class="flex justify-center mb-4">
+                        <img src="https://img.icons8.com/?size=50&id=3562&format=png" alt="Expert Support Icon" class="h-12 w-12">
+                    </div>
+                    <h1 class="text-[30px] text-bold mb-4">Logistics</h1>
+                    <p class="text-gray-600 mb-4">Advanced tracking and management systems for transportation and logistics</p>
+                    <div class="flex items-center mt-4">
+
+                        <div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+  <footer class="bg-gray-900 text-white mt-8">
+    <div class="container mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Left Section -->
+      <div id="contact">
+        <div class="text-2xl font-bold">Quantum<span class="text-white"> Art</span></div>
+        <p class="text-gray-300">Ased do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <p class="mt-4">
+          <span>Email: </span>
+          <a href="mailto:name@domain.com" class="text-blue-400">name@domain.com</a>
+        </p>
+        <p>Phone: +1 (222) 1234567890</p>
+      </div>
+
+      <!-- Middle Section -->
+      <div>
+        <h2 class="text-xl font-bold mb-4">About Devloon</h2>
+        <ul>
+          <li><a href="#" class="hover:text-blue-400">About Us</a></li>
+          <li><a href="#" class="hover:text-blue-400">Career</a></li>
+          <li><a href="#" class="hover:text-blue-400">Terms of Service</a></li>
+          <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
+        </ul>
+        <h2 class="text-xl font-bold mt-6 mb-4"></h2>
+        <div class="grid grid-cols-2 gap-2">
+         
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div>
+        <h2 class="text-xl font-bold mb-4">Newsletter</h2>
+        <p class="text-gray-300">Subscribe to get the latest news updates and information.</p>
+        <form class="mt-4">
+          <div class="flex">
+            <input type="email" placeholder="Add Email" class="w-full p-2 rounded-l-md text-black">
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 rounded-r-md">→</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+</footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const serviceCards = document.querySelectorAll("#services > div");
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("fade-in");
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            serviceCards.forEach(card => {
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>
